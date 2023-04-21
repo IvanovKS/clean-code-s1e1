@@ -13,7 +13,7 @@ body {
 .eisenhower-matrix img {
   width: 100%;
 }
-.more-inf {
+.eisenhower-matrix__inf {
   font-family: fantasy, cursive;
 }
 
@@ -33,7 +33,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.row-wrapper {
+.add__box_item {
   display: flex;
   padding-top: 20px;
 }
@@ -93,7 +93,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.add__box_item input {
   width: 318px;
 }
 
@@ -131,7 +131,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed label {
+.completed__tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@ li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.todo__tasks_edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.todo__tasks_edit-mode label {
   display: none;
 }
