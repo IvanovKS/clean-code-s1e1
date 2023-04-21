@@ -23,7 +23,7 @@ body {
   }
 
 }
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -33,7 +33,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.row-wrapper {
   display: flex;
   padding-top: 20px;
 }
@@ -131,7 +131,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed label {
   text-decoration: line-through;
   color: #888;
 }
